@@ -1,14 +1,14 @@
 {
-  "name": "monitor-pid",
+  "name": "pids-monitor",
   "version": "1.4.3",
-  "description": "Monitors a pid and all its sons",
+  "description": "Monitors a pids and all its sons",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/kerphi/node-monitor-pid.git"
+    "url": "git://github.com/pradeep9873/node-pids-monitor.git"
   },
   "keywords": [
     "monitor",
@@ -18,10 +18,10 @@
     "csv",
     "statistics"
   ],
-  "author": "Stéphane Gully <stephane.gully@gmail.com>",
+  "author": "Pradeep Nair <nair.pradeep@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kerphi/node-monitor-pid/issues"
+    "url": "https://github.com/pradeep9873/node-pids-monitor/issues"
   },
   "bin": {
     "monitor-pid": "./bin/monitor-pid"
