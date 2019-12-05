@@ -1,6 +1,6 @@
 {
   "name": "pids-monitor",
-  "version": "1.4.3",
+  "version": "1.4.4",
   "description": "Monitors a pids and all its sons",
   "main": "index.js",
   "scripts": {
