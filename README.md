@@ -1,5 +1,7 @@
-node-monitor-pid
+node-pids-monitor
 ================
+
+forked from monitor-pid, updated dependency versions
 
 Monitors a pid and all its sons.
 
@@ -11,7 +13,7 @@ Installation
 ================
 
 ```
-npm install monitor-pid
+npm install pids-monitor
 ```
 
 It also requires ``pidstat`` (>= 10.x) and ``pstree`` linux command to be installed on the system (`apt-get install sysstat psmisc`)
@@ -20,8 +22,8 @@ Usage as a command line
 =======================
 
 ```sh
-npm install -g monitor-pid
-monitor-pid --pid 5253 --period 5000
+npm install -g pids-monitor
+pids-monitor --pid 5253 --period 5000
 ```
 
 It will monitor the pid 5253 each 5 secondes and output cpu, memory, disk and nb_pids statistics as a CSV string on stdout.
@@ -41,7 +43,7 @@ Usage as a nodejs module
 ========================
 
 ```js
-var MonitorPid = require('monitor-pid');
+var MonitorPid = require('pids-monitor');
 
 // creates an instance of MonitorPid
 // - pid to monitor is 5253
